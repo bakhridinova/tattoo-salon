@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tattoo_salon:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a5e7134-8b12-4001-b7ad-80dbb772bbbc" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/logFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/logFile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/entity/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/entity/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/entity/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/entity/Rating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/entity/dto/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/entity/dto/Order.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Jspx File" />
+        <option value="Enum" />
+        <option value="Jsp File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="bakhridinova" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2HPq7tVIDToMsjZFd2mqb4p9tCn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.18.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.0&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/IdeaProjects/EPAM/Final Project/tattoo_salon/src/main/java/com/example/demo/model/entity/enumerator&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/Kata/basic-calculator-with-test&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;C:\\Program Files\\nodejs\\npm.cmd&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeWithMe&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\EPAM\Final Project\tattoo_salon\src\main\webapp\view\pages" />
+      <recent name="D:\IdeaProjects\EPAM\Final Project\tattoo_salon\src\main\java\com\example\demo\model\util" />
+      <recent name="D:\IdeaProjects\EPAM\Final Project\tattoo_salon\src\main\java\com\example\demo\controller" />
+      <recent name="D:\IdeaProjects\EPAM\Final Project\tattoo_salon\src\main\webapp\images" />
+      <recent name="D:\IdeaProjects\EPAM\Final Project\tattoo_salon\src\main\resources\localization" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\EPAM\Final Project\tattoo_salon\src\main\webapp\view\pages\admin_only" />
+      <recent name="D:\IdeaProjects\EPAM\Final Project\tattoo_salon\src\main\webapp\js\utils" />
+      <recent name="D:\IdeaProjects\EPAM\Final Project\tattoo_salon\src\main\webapp\js" />
+      <recent name="D:\IdeaProjects\EPAM\Final Project\tattoo_salon\src\main\java\com\example\demo\controller\delete" />
+      <recent name="D:\IdeaProjects\EPAM\Final Project\tattoo_salon\src\main\webapp\view\fragment" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="com.example.demo.model.entity.enumerator" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo.controller.command.impl" />
+      <recent name="com.example.demo.model.util.locale" />
+      <recent name="com.example.demo.controller.filter" />
+      <recent name="com.example.demo.model.util.validator.impl" />
+      <recent name="com.example.demo.model.util.validator" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" />
+      </set>
+    </option>
+    <option name="openRunningConfigInTab" value="true" />
+  </component>
+  <component name="RunManager" selected="JUnit.ImageServiceTest">
+    <configuration name="ImageServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tattoo_salon" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ImageServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tattoo_salon" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrderServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RatingServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tattoo_salon" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RatingServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tattoo_salon" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 10.0.271" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.271" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="tattoo_salon:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="e5aa1d55-bdef-4ea2-94a5-5881c545cb29" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58575" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="tattoo_salon:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="39a6309e-bf4a-4bc1-b329-b88d2e6b2331" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58575" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ImageServiceTest" />
+      <item itemvalue="JUnit.OrderServiceTest" />
+      <item itemvalue="JUnit.RatingServiceTest" />
+      <item itemvalue="JUnit.UserServiceTest" />
+      <item itemvalue="Tomcat Server.Tomcat 10.0.271" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ImageServiceTest" />
+        <item itemvalue="JUnit.OrderServiceTest" />
+        <item itemvalue="JUnit.RatingServiceTest" />
+        <item itemvalue="JUnit.UserServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a5e7134-8b12-4001-b7ad-80dbb772bbbc" name="Changes" comment="" />
+      <created>1668196904997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668196904997</updated>
+      <workItem from="1668196906829" duration="198000" />
+      <workItem from="1668197162564" duration="10243000" />
+      <workItem from="1668261413675" duration="5407000" />
+      <workItem from="1668274951112" duration="11228000" />
+      <workItem from="1668288642783" duration="6421000" />
+      <workItem from="1668297688611" duration="6093000" />
+      <workItem from="1668366281510" duration="52138000" />
+      <workItem from="1668498858502" duration="7044000" />
+      <workItem from="1668615404678" duration="7936000" />
+      <workItem from="1668623598315" duration="6896000" />
+      <workItem from="1668698165313" duration="26049000" />
+      <workItem from="1668764112975" duration="31497000" />
+      <workItem from="1668848437757" duration="6704000" />
+      <workItem from="1668935773356" duration="15311000" />
+      <workItem from="1669040708217" duration="3785000" />
+      <workItem from="1669096081111" duration="342000" />
+      <workItem from="1669182971710" duration="7372000" />
+      <workItem from="1669385861808" duration="18327000" />
+      <workItem from="1669448728756" duration="15581000" />
+      <workItem from="1669528762330" duration="17966000" />
+      <workItem from="1669571985976" duration="23735000" />
+      <workItem from="1669609294822" duration="16906000" />
+      <workItem from="1669700928138" duration="28834000" />
+      <workItem from="1669797154010" duration="28347000" />
+      <workItem from="1669876646975" duration="10685000" />
+      <workItem from="1669957444648" duration="47444000" />
+      <workItem from="1670052553990" duration="45010000" />
+      <workItem from="1670166973354" duration="10631000" />
+      <workItem from="1670178227834" duration="203000" />
+      <workItem from="1670178441219" duration="3695000" />
+      <workItem from="1670187214801" duration="18644000" />
+      <workItem from="1670221285876" duration="26367000" />
+      <workItem from="1670275346787" duration="24460000" />
+      <workItem from="1670316150456" duration="10731000" />
+      <workItem from="1670368904677" duration="15698000" />
+      <workItem from="1670385685593" duration="1352000" />
+      <workItem from="1670387054517" duration="3538000" />
+      <workItem from="1670390605616" duration="1539000" />
+      <workItem from="1670392156035" duration="15770000" />
+      <workItem from="1670412680008" duration="4067000" />
+      <workItem from="1670418247913" duration="2528000" />
+      <workItem from="1670451437786" duration="286000" />
+      <workItem from="1670451735552" duration="594000" />
+      <workItem from="1670452340346" duration="679000" />
+      <workItem from="1670453038215" duration="282000" />
+      <workItem from="1670453392834" duration="27128000" />
+      <workItem from="1670483199530" duration="4691000" />
+      <workItem from="1670490916536" duration="11138000" />
+      <workItem from="1670558449800" duration="693000" />
+      <workItem from="1670559156062" duration="30987000" />
+      <workItem from="1670643160182" duration="7614000" />
+      <workItem from="1670736261427" duration="15072000" />
+      <workItem from="1670813839809" duration="31365000" />
+      <workItem from="1670909154322" duration="36189000" />
+      <workItem from="1671002064934" duration="3010000" />
+      <workItem from="1671008364258" duration="34596000" />
+      <workItem from="1671085782650" duration="30364000" />
+      <workItem from="1671136779305" duration="331000" />
+      <workItem from="1671170919491" duration="53294000" />
+      <workItem from="1671268736312" duration="6913000" />
+      <workItem from="1671284114953" duration="115000" />
+      <workItem from="1671284238502" duration="23900000" />
+      <workItem from="1671343096564" duration="45281000" />
+      <workItem from="1671427123892" duration="1084000" />
+    </task>
+    <task id="LOCAL-00044" summary="commit">
+      <created>1669593253859</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1669593253859</updated>
+    </task>
+    <task id="LOCAL-00045" summary="commit">
+      <created>1669745652556</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1669745652556</updated>
+    </task>
+    <task id="LOCAL-00046" summary="commit">
+      <created>1669755141922</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1669755141922</updated>
+    </task>
+    <task id="LOCAL-00047" summary="commit">
+      <created>1669763297394</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1669763297394</updated>
+    </task>
+    <task id="LOCAL-00048" summary="commit">
+      <created>1669763851853</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1669763851853</updated>
+    </task>
+    <task id="LOCAL-00049" summary="commit">
+      <created>1669767158609</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1669767158609</updated>
+    </task>
+    <task id="LOCAL-00050" summary="commit">
+      <created>1669810287642</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1669810287642</updated>
+    </task>
+    <task id="LOCAL-00051" summary="commit">
+      <created>1669827694506</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1669827694506</updated>
+    </task>
+    <task id="LOCAL-00052" summary="commit">
+      <created>1670022908824</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1670022908824</updated>
+    </task>
+    <task id="LOCAL-00053" summary="commit">
+      <created>1670042853178</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1670042853178</updated>
+    </task>
+    <task id="LOCAL-00054" summary="commit">
+      <created>1670044510362</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1670044510362</updated>
+    </task>
+    <task id="LOCAL-00055" summary="commit">
+      <created>1670122209855</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1670122209855</updated>
+    </task>
+    <task id="LOCAL-00056" summary="commit">
+      <created>1670290802308</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1670290802308</updated>
+    </task>
+    <task id="LOCAL-00057" summary="commit">
+      <created>1670405332399</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1670405332399</updated>
+    </task>
+    <task id="LOCAL-00058" summary="commit">
+      <created>1670559173039</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1670559173040</updated>
+    </task>
+    <task id="LOCAL-00059" summary="commit">
+      <created>1670737954010</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1670737954011</updated>
+    </task>
+    <task id="LOCAL-00060" summary="commit">
+      <created>1670746659559</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1670746659559</updated>
+    </task>
+    <task id="LOCAL-00061" summary="commit">
+      <created>1670966931926</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1670966931926</updated>
+    </task>
+    <task id="LOCAL-00062" summary="commit">
+      <created>1671007910498</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1671007910498</updated>
+    </task>
+    <task id="LOCAL-00063" summary="commit">
+      <created>1671026548185</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1671026548186</updated>
+    </task>
+    <task id="LOCAL-00064" summary="commit">
+      <created>1671048328030</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1671048328030</updated>
+    </task>
+    <task id="LOCAL-00065" summary="commit">
+      <created>1671058146671</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1671058146671</updated>
+    </task>
+    <task id="LOCAL-00066" summary="commit">
+      <created>1671058327758</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1671058327758</updated>
+    </task>
+    <task id="LOCAL-00067" summary="commit">
+      <created>1671211205237</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1671211205237</updated>
+    </task>
+    <task id="LOCAL-00068" summary="commit">
+      <created>1671211449999</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1671211450000</updated>
+    </task>
+    <task id="LOCAL-00069" summary="commit">
+      <created>1671212896007</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1671212896007</updated>
+    </task>
+    <task id="LOCAL-00070" summary="commit">
+      <created>1671213230954</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1671213230954</updated>
+    </task>
+    <task id="LOCAL-00071" summary="commit">
+      <created>1671213294815</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1671213294815</updated>
+    </task>
+    <task id="LOCAL-00072" summary="commit">
+      <created>1671213306747</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1671213306747</updated>
+    </task>
+    <task id="LOCAL-00073" summary="commit">
+      <created>1671213401266</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1671213401266</updated>
+    </task>
+    <task id="LOCAL-00074" summary="commit">
+      <created>1671227434462</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1671227434462</updated>
+    </task>
+    <task id="LOCAL-00075" summary="commit">
+      <created>1671227734191</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1671227734192</updated>
+    </task>
+    <task id="LOCAL-00076" summary="commit">
+      <created>1671227908486</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1671227908486</updated>
+    </task>
+    <task id="LOCAL-00077" summary="commit">
+      <created>1671228326330</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1671228326330</updated>
+    </task>
+    <task id="LOCAL-00078" summary="initial commit">
+      <created>1671284170049</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1671284170049</updated>
+    </task>
+    <task id="LOCAL-00079" summary="updated README.md">
+      <created>1671284986661</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1671284986661</updated>
+    </task>
+    <task id="LOCAL-00080" summary="updated README.md">
+      <created>1671285106470</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1671285106470</updated>
+    </task>
+    <task id="LOCAL-00081" summary="updated UserDao.java, ImageDao.java">
+      <created>1671285499740</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1671285499740</updated>
+    </task>
+    <task id="LOCAL-00082" summary="updated UserDaoImpl.java, ImageDao.java">
+      <created>1671285654449</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1671285654449</updated>
+    </task>
+    <task id="LOCAL-00083" summary="minor changes">
+      <created>1671299801101</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1671299801101</updated>
+    </task>
+    <task id="LOCAL-00084" summary="minor changes">
+      <created>1671304414942</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1671304414942</updated>
+    </task>
+    <task id="LOCAL-00085" summary="minor changes">
+      <created>1671306507888</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1671306507888</updated>
+    </task>
+    <task id="LOCAL-00086" summary="major changes">
+      <created>1671354850086</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1671354850086</updated>
+    </task>
+    <task id="LOCAL-00087" summary="major changes">
+      <created>1671360844651</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1671360844651</updated>
+    </task>
+    <task id="LOCAL-00088" summary="modified UserServiceTest.java, ImageServiceTest.java, OrderServiceTest.java, RatingServiceTest.java and other classes">
+      <created>1671388122200</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1671388122200</updated>
+    </task>
+    <task id="LOCAL-00089" summary="important changes">
+      <created>1671394398590</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1671394398590</updated>
+    </task>
+    <task id="LOCAL-00090" summary="initial commit">
+      <created>1671395928129</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1671395928129</updated>
+    </task>
+    <task id="LOCAL-00091" summary="initial commit">
+      <created>1671396214587</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1671396214587</updated>
+    </task>
+    <task id="LOCAL-00092" summary="initial commit">
+      <created>1671396681203</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1671396681203</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Revert &quot;commit&quot;&#10;&#10;This reverts commit bc149c59" />
+    <MESSAGE value="commit" />
+    <MESSAGE value="updated README.md" />
+    <MESSAGE value="updated UserDao.java, ImageDao.java" />
+    <MESSAGE value="updated UserDaoImpl.java, ImageDao.java" />
+    <MESSAGE value="updated ConnectionPool.java, app.properties" />
+    <MESSAGE value="minor changes" />
+    <MESSAGE value="major changes" />
+    <MESSAGE value="modified UserServiceTest.java, ImageServiceTest.java, OrderServiceTest.java, RatingServiceTest.java and other classes" />
+    <MESSAGE value="important changes" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.catalina.session.StandardSessionFacade" memberName="session" />
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+        <PinnedItemInfo parentTag="org.apache.catalina.core.ApplicationHttpRequest" memberName="mapping" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

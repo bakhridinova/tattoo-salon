@@ -1,0 +1,216 @@
+create table users
+(
+    id integer primary key generated always as identity,
+    role               varchar(10) not null,
+    status             varchar(10) not null,
+
+    user_name          varchar(40) not null unique,
+    password           varchar(40) not null check (length(password) > 2),
+
+    gender             varchar(10) not null,
+    birth_date         date not null,
+
+    full_name          varchar(40),
+    email_address      varchar(40),
+    contact_number     varchar(20)
+);
+
+
+create table categories
+(
+    id               integer primary key generated always as identity,
+    description      varchar(40)
+);
+
+create table images
+(
+    id               integer primary key generated always as identity,
+    user_id          integer,
+    category_id      integer,
+
+    rating           double precision,
+    price            double precision,
+    url              varchar(40),
+
+    constraint fk_categories
+        foreign key(category_id)
+            references categories(id),
+
+    constraint fk_users
+        foreign key(user_id)
+            references users(id)
+);
+
+
+create table ratings
+(
+    id             integer primary key generated always as identity,
+    user_id        integer not null,
+    image_id       integer not null,
+
+    rating         smallint check (rating between 1 and 5),
+    review         varchar,
+    status         varchar(10),
+
+    constraint fk_users
+        foreign key(user_id)
+            references users(id),
+
+    constraint fk_images
+        foreign key(image_id)
+            references images(id)
+);
+
+
+create table orders
+(
+    id                     integer primary key generated always as identity,
+    user_id                integer not null,
+    image_id               integer not null,
+
+    status                 varchar(10),
+    with_discount          boolean not null,
+    created_at             timestamp not null,
+    amount                 double precision not null,
+
+    constraint fk_users
+        foreign key(user_id)
+            references users(id),
+
+    constraint fk_images
+        foreign key(image_id)
+            references images(id)
+);
+
+insert into users
+values (default, 'admin', 'active', 'leyla',   '000',   'female',  '2004-01-30',  '',   'leyla@gmail.com',  '+1-202-111-0000');
+insert into users
+values (default, 'admin', 'active', 'admin',   '000',   'male',    '2002-01-01',  '',   'admin@gmail.com',  '+1-202-111-0000');
+
+insert into users
+values (default, 'user', 'active', 'aries',    '111',     'female',  '2004-03-21',  '',   'aries@gmail.com',  '+1-202-555-0185');
+insert into users
+values (default, 'user', 'active', 'terry' ,   '222',     'male',    '1996-11-17',  '',   'terry@gmail.com' , '+1-202-555-0139');
+insert into users
+values (default, 'user', 'active', 'leif' ,    '333',     'female',  '1983-12-31',  '',   'leif@gmail.com' ,  '+1-202-555-0159');
+insert into users
+values (default, 'user', 'active', 'conrad' ,  '444',     'female',  '2000-03-15',  '',   'conrad@gmail.com', '+1-202-555-0191');
+insert into users
+values (default, 'user', 'active', 'mack' ,    '555',     'male',    '1995-11-04',  '',   'mack@gmail.com' ,  '+1-202-555-0182');
+insert into users
+values (default, 'user', 'active', 'paul' ,    '666',     'male',    '2000-07-27',  '',   'paul@gmail.com' ,  '+1-202-555-0182');
+insert into users
+values (default, 'user', 'active', 'simon' ,   '777',     'male',    '2001-08-09',  '',   'simon@gmail.com' , '+1-202-555-0134');
+insert into users
+values (default, 'user', 'active', 'emma' ,    '888',     'female',  '1996-07-07',  '',   'emma@gmail.com' ,  '+1-202-555-0147');
+insert into users
+values (default, 'user', 'active', 'willie' ,  '999',     'male',    '1989-10-27',  '',   'willie@gmail.com', '+1-202-555-0173');
+
+
+insert into categories
+values (default, 'category1');
+insert into categories
+values (default, 'category2');
+insert into categories
+values (default, 'category3');
+insert into categories
+values (default, 'category4');
+insert into categories
+values (default, 'category5');
+insert into categories
+values (default, 'category6');
+insert into categories
+values (default, 'category7');
+insert into categories
+values (default, 'category8');
+insert into categories
+values (default, 'category9');
+insert into categories
+values (default, 'other category');
+
+insert into images
+values (default, 1, 1, 1, 30, 'src/main/resources/catalog/1');
+insert into images
+values (default, 1, 2, 1, 50, 'src/main/resources/catalog/2');
+insert into images
+values (default, 1, 3, 1, 40, 'src/main/resources/catalog/3');
+insert into images
+values (default, 1, 4, 1, 25, 'src/main/resources/catalog/4');
+insert into images
+values (default, 1, 5, 1, 30, 'src/main/resources/catalog/5');
+insert into images
+values (default, 1, 6, 1, 35, 'src/main/resources/catalog/6');
+insert into images
+values (default, 1, 7, 1, 40, 'src/main/resources/catalog/7');
+insert into images
+values (default, 1, 8, 1, 45, 'src/main/resources/catalog/8');
+insert into images
+values (default, 1, 9, 1, 50, 'src/main/resources/catalog/9');
+
+insert into images
+values (default, 1, null, 1, 15, 'src/main/resources/catalog/10');
+insert into images
+values (default, 1, null, 1, 35, 'src/main/resources/catalog/11');
+insert into images
+values (default, 1, null, 1, 20, 'src/main/resources/catalog/12');
+insert into images
+values (default, 1, null, 1, 40, 'src/main/resources/catalog/13');
+insert into images
+values (default, 1, null, 1, 50, 'src/main/resources/catalog/14');
+insert into images
+values (default, 1, null, 1, 45, 'src/main/resources/catalog/15');
+insert into images
+values (default, 1, null, 1, 25, 'src/main/resources/catalog/16');
+insert into images
+values (default, 1, null, 1, 10, 'src/main/resources/catalog/17');
+insert into images
+values (default, 1, null, 1, 30, 'src/main/resources/catalog/18');
+insert into images
+values (default, 1, null, 1, 40, 'src/main/resources/catalog/19');
+insert into images
+values (default, 1, null, 1, 35, 'src/main/resources/catalog/20');
+
+
+insert into ratings
+values (default, 1, 1, 5, '', 'active');
+insert into ratings
+values (default, 2, 2, 1, '', 'active');
+insert into ratings
+values (default, 3, 3, 3, '', 'active');
+insert into ratings
+values (default, 4, 4, 4, '', 'active');
+insert into ratings
+values (default, 5, 5, 4, '', 'active');
+insert into ratings
+values (default, 6, 6, 5, '', 'active');
+insert into ratings
+values (default, 7, 7, 3, '', 'active');
+insert into ratings
+values (default, 8, 8, 2, '', 'active');
+insert into ratings
+values (default, 9, 9, 4, '', 'active');
+
+
+insert into orders
+values (default, 1, 1, 'completed', false, now(), 30);
+insert into orders
+values (default, 2, 2, 'completed', false, now(), 50);
+insert into orders
+values (default, 3, 3, 'completed', false, now(), 40);
+insert into orders
+values (default, 4, 4, 'completed', false, now(), 25);
+insert into orders
+values (default, 5, 5, 'completed', false, now(), 30);
+insert into orders
+values (default, 6, 6, 'completed', false, now(), 35);
+insert into orders
+values (default, 7, 7, 'completed', false, now(), 40);
+insert into orders
+values (default, 8, 8, 'completed', false, now(), 45);
+
+
+select * from users;
+select * from orders;
+select * from ratings;
+select * from images;
+select * from categories;
