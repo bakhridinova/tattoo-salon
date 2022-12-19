@@ -49,4 +49,4 @@ postgresql database is used to store data
 * run tomcat and open http://localhost:8080/ on the browser
 * log in as admin and create new users, default account is username: admin/username, password - password
 
-## page view is available <a href="https://github.com/bakhridinova/tattoo-salon/issues/2">here</a>
+### page view is available <a href="https://github.com/bakhridinova/tattoo-salon/issues/2">here</a>
